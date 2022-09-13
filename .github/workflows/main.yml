@@ -12,12 +12,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      # Install NPM dependencies, cache them correctly
-      # and run all Cypress tests
       - name: Cypress run
-        uses: cypress-io/github-action@v4 # use the explicit version number
+        uses: cypress-io/github-action@v4
         with:
-          # Specify Browser since container image is compile with Firefox
           build: yarn build
           start: yarn start
           browser: firefox
+
+      - name: Deploy to Heroku
+        uses: akhileshns/heroku-deploy@v3.12.12
+        with:
+          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+          heroku_app_name: "mock-api-web-app"
+          heroku_email: "i.loginow.by@gmail.com"
+
+
