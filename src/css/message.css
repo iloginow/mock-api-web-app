@@ -1,0 +1,8 @@
+.message-error,
+.message-info {
+  margin: 0;
+}
+
+.message-error .card-header {
+  background-color: var(--c-danger);
+}

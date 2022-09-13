@@ -1,0 +1,27 @@
+.app-header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: var(--z-index-header);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  border-bottom: 1px solid var(--c-divider);
+  padding: 0.7rem 1.5rem;
+  height: var(--header-height);
+  background-color: var(--c-bg);
+}
+
+.header-title,
+.header-selected-status {
+  margin: 0.25rem 0;
+}
+
+.header-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--c-brand);
+  margin-right: 2rem;
+}

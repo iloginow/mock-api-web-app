@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200;8..144,400;8..144,600&display=swap');
+
+:root {
+    --c-bg: #ffffff;
+    --c-bg-accent: #f8f8f8;
+    --c-divider: rgba(60, 60, 67, .12);
+    --c-text: #2c3e50;
+    --c-text-light: #476582;
+    --c-text-lighter: #90a4b7;
+    --c-brand: #1a1f71;
+    --c-brand-light: #e8e4f2;
+    --c-danger: #ffc8c5;
+    --font-family-base: "Roboto Flex", sans-serif;
+    --z-index-header: 1;
+    --header-height: 2.3rem;
+}
+
+@media (max-width: 390px) {
+  :root {
+    --header-height: 4.3rem;
+  }
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  line-height: 1.4;
+  font-family: var(--font-family-base);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--c-text);
+  background-color: var(--c-bg);
+  direction: ltr;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  text-decoration: none;
+  color: var(--c-brand);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.app {
+  min-height: 100vh;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}

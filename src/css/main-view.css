@@ -1,0 +1,8 @@
+.app-main-view {
+  padding: calc(var(--header-height) + 3rem) 1.5rem 0 1.5rem;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 48rem;
+  flex-grow: 1;
+  box-sizing: border-box;
+}

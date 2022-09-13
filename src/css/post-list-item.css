@@ -1,0 +1,32 @@
+.post-list-item {
+  margin-bottom: 1.5rem;
+}
+
+.post-list-item-header-controls {
+  margin-right: 2rem;
+}
+
+.post-list-item-header-controls,
+.post-list-item-header-selected-at {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.post-list-item-header-id {
+  font-weight: 600;
+  margin-right: 1rem;
+}
+
+.post-list-item-header-checkbox-label-selected {
+  font-weight: 600;
+}
+
+.post-list-item-header-selected-at {
+  color: var(--c-text-light);
+}
+
+.post-list-item-content-title,
+.post-list-item-content-body {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}

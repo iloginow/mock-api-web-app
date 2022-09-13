@@ -1,0 +1,17 @@
+.ssc-line,
+.ssc-head-line {
+  margin-top: 0.45rem;
+  margin-bottom: 0.45rem;
+}
+
+.ssc-line:last-child {
+  margin-bottom: 0.45rem;
+}
+
+.ssc-line {
+  height: 1rem;
+}
+
+.ssc-head-line {
+  height: 1.5rem;
+}

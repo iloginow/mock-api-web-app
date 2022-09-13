@@ -1,0 +1,11 @@
+.app-footer {
+  background-color: var(--c-bg-accent);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0.7rem 1.5rem;
+}
+
+.footer-copyright {
+  margin-right: 2rem;
+}
